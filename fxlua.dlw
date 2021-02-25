@@ -2,7 +2,7 @@
 
 [_1]
 Type=5
-Order=2
+Order=6
 Top=12
 Left=2232
 Height=4740
@@ -13,7 +13,7 @@ OptionA=0
 
 [_2]
 Type=1
-Order=4
+Order=8
 Top=192
 Left=16476
 Height=4740
@@ -25,7 +25,7 @@ OptionB=12
 
 [_3]
 Type=6
-Order=3
+Order=7
 Top=4284
 Left=16524
 Height=6396
@@ -36,7 +36,7 @@ OptionA=0
 
 [_4]
 Type=7
-Order=6
+Order=9
 Top=4740
 Left=2220
 Height=3168
@@ -47,7 +47,7 @@ OptionA=0
 
 [_5]
 Type=8
-Order=5
+Order=3
 Top=7908
 Left=2220
 Height=3228
@@ -58,7 +58,7 @@ OptionA=0
 
 [_6]
 Type=3
-Order=9
+Order=11
 Top=0
 Left=10788
 Height=6348
@@ -69,7 +69,7 @@ OptionA=0
 
 [_7]
 Type=2
-Order=8
+Order=10
 Top=6348
 Left=7800
 Height=3588
@@ -80,7 +80,7 @@ OptionA=0
 
 [_8]
 Type=17
-Order=1
+Order=4
 Top=12
 Left=-12
 Height=11112
@@ -92,21 +92,46 @@ OptionA=0
 [_9]
 Type=15
 Order=0
-Top=2412
-Left=2592
-Height=6348
-Width=13032
+Top=2424
+Left=4548
+Height=8148
+Width=16968
 State=0
 Flags=00000000
 OptionA=0
 
 [_32]
 Type=16
-Order=7
+Order=1
+Top=972
+Left=1176
+Height=6804
+Width=9780
+State=0
+Flags=00000020
+Setting=50:7:\CASIO\fx-9860G-SDK\OS\SH\include\stdio.h
+OptionA=0
+
+[_33]
+Type=16
+Order=2
 Top=0
-Left=2208
-Height=4584
-Width=5592
+Left=0
+Height=7632
+Width=19284
 State=16
 Flags=00000020
+Setting=56:1:lua\compatible.c
+OptionA=0
+
+[_34]
+Type=16
+Order=5
+Top=0
+Left=0
+Height=7632
+Width=19284
+State=16
+Flags=00000020
+Setting=12:24:lua\lua.c
 OptionA=0

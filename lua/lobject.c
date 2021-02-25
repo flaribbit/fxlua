@@ -10,7 +10,7 @@
 #include "lprefix.h"
 
 
-#include <locale.h>
+#include "compatible.h"
 #include <math.h>
 #include <stdarg.h>
 #include <stdio.h>

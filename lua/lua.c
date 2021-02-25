@@ -9,7 +9,7 @@
 #include "lprefix.h"
 
 
-#include <signal.h>
+#include "compatible.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

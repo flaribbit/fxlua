@@ -42,7 +42,7 @@
 ** created; the seed is used to randomize hashes.
 */
 #if !defined(luai_makeseed)
-#include <time.h>
+#include "compatible.h"
 #define luai_makeseed()		cast(unsigned int, time(NULL))
 #endif
 

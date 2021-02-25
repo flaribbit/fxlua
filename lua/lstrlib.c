@@ -13,7 +13,7 @@
 #include <ctype.h>
 #include <float.h>
 #include <limits.h>
-#include <locale.h>
+#include "compatible.h"
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>

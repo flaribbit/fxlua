@@ -49,6 +49,7 @@ SourceFile=:lua\lundump.c
 SourceFile=:lua\lutf8lib.c
 SourceFile=:lua\lvm.c
 SourceFile=:lua\lzio.c
+SourceFile=:lua\compatible.c
 HeaderFile=:lua\lapi.h
 HeaderFile=:lua\lauxlib.h
 HeaderFile=:lua\lcode.h
