@@ -24,11 +24,20 @@
 //  retval  :   1 = No error / 0 = Error
 //
 //****************************************************************************
+static int lua_locate(lua_State *L)
+{
+    int x = luaL_checkinteger(L, 1);
+    int y = luaL_checkinteger(L, 2);
+    locate(x, y);
+    return 0;
+}
+
 int AddIn_main(int isAppli, unsigned short OptionNum)
 {
     unsigned int key;
     lua_State *L = (lua_State *)luaL_newstate();
     luaL_openlibs(L);
+    lua_register(L, "locate", lua_locate);
 
     Bdisp_AllClr_DDVRAM();
 
