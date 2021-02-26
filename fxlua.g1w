@@ -2,7 +2,7 @@
 Name=fxlua
 Version=0.1
 Model=:fx-9860G.dlm
-SourcePath=lua
+SourcePath=.;lua
 MemoryPath=INIT
 MemCardPath=SDCard
 

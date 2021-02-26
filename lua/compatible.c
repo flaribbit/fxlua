@@ -57,9 +57,6 @@ int clock() {
 char *fgets(char *s, int n, FILE *fp) {
     return 0;
 }
-int strcoll(char *s1, char *s2) {
-    return 0;
-}
 int ungetc(int c, FILE *fp) {
     return 0;
 }

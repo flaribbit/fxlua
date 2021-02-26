@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "compatible.h": "c"
+        "compatible.h": "c",
+        "lua.h": "c",
+        "stddef.h": "c"
     }
 }

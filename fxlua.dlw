@@ -2,22 +2,23 @@
 
 [_1]
 Type=5
-Order=6
-Top=12
+Order=0
+Top=60
 Left=2232
-Height=4740
-Width=5568
+Height=6708
+Width=11160
 State=0
 Flags=00000020
+Setting=27:1:lua\lbaselib.c
 OptionA=0
 
 [_2]
 Type=1
-Order=8
+Order=7
 Top=192
 Left=16476
-Height=4740
-Width=5532
+Height=3948
+Width=4584
 State=0
 Flags=00000001
 OptionA=12
@@ -25,20 +26,20 @@ OptionB=12
 
 [_3]
 Type=6
-Order=7
+Order=1
 Top=4284
 Left=16524
-Height=6396
-Width=5532
+Height=5724
+Width=4572
 State=0
 Flags=00000001
 OptionA=0
 
 [_4]
 Type=7
-Order=9
-Top=4740
-Left=2220
+Order=6
+Top=7380
+Left=2748
 Height=3168
 Width=5568
 State=0
@@ -47,18 +48,18 @@ OptionA=0
 
 [_5]
 Type=8
-Order=3
-Top=7908
-Left=2220
+Order=4
+Top=7308
+Left=8436
 Height=3228
-Width=5580
+Width=7716
 State=0
 Flags=00000000
 OptionA=0
 
 [_6]
 Type=3
-Order=11
+Order=12
 Top=0
 Left=10788
 Height=6348
@@ -69,7 +70,7 @@ OptionA=0
 
 [_7]
 Type=2
-Order=10
+Order=11
 Top=6348
 Left=7800
 Height=3588
@@ -80,10 +81,10 @@ OptionA=0
 
 [_8]
 Type=17
-Order=4
+Order=5
 Top=12
 Left=-12
-Height=11112
+Height=10356
 Width=2232
 State=0
 Flags=00000000
@@ -91,47 +92,59 @@ OptionA=0
 
 [_9]
 Type=15
-Order=0
-Top=2424
-Left=4548
-Height=8148
-Width=16968
+Order=2
+Top=3456
+Left=2364
+Height=7068
+Width=13056
 State=0
 Flags=00000000
 OptionA=0
 
+[_10]
+Type=9
+Order=9
+Top=2736
+Left=2184
+Height=7632
+Width=19284
+State=16
+Flags=00000020
+Setting=80000000:88027014:88027014:luaB_print:s>
+OptionA=0
+
 [_32]
 Type=16
-Order=1
-Top=972
+Order=3
+Top=588
 Left=1176
 Height=6804
 Width=9780
 State=0
 Flags=00000020
-Setting=50:7:\CASIO\fx-9860G-SDK\OS\SH\include\stdio.h
+Setting=5:3:lua\lbaselib.c
 OptionA=0
 
 [_33]
 Type=16
-Order=2
+Order=10
 Top=0
 Left=0
-Height=7632
-Width=19284
-State=16
+Height=8676
+Width=14076
+State=17
 Flags=00000020
-Setting=56:1:lua\compatible.c
+Setting=30:1:fxlua.c
 OptionA=0
 
 [_34]
 Type=16
-Order=5
-Top=0
-Left=0
-Height=7632
-Width=19284
-State=16
+Order=8
+Top=468
+Left=5580
+Height=8952
+Width=15336
+State=1
 Flags=00000020
-Setting=12:24:lua\lua.c
+Setting=946:1:lua\lapi.c
 OptionA=0

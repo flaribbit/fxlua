@@ -28,4 +28,7 @@ char *getenv(char *name);
 #define SIG_DFL 0
 #define SIGINT 1
 
+#define lua_writestring(s,l) Print(s)
+#define lua_writeline() Print("\n")
+
 #endif

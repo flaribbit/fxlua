@@ -7,6 +7,7 @@
 #define lbaselib_c
 #define LUA_LIB
 
+#include "compatible.h"
 #include "lprefix.h"
 
 
