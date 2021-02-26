@@ -41,13 +41,15 @@ int AddIn_main(int isAppli, unsigned short OptionNum)
 
     Bdisp_AllClr_DDVRAM();
 
-    locate(1, 1);
-    if(luaL_dostring(L, "local s=0;for i=1,1000000 do s=s+i end;print(s);")){
-        Print("failed");
+    if(luaL_dostring(L, "local t={};for i=1,20 do local u={};for j=1,1024 do locate(1,1);print(i,j);u[j]=0; end;t[i]=u end")){
+        char *err = lua_tostring(L, -1);
+        int len = strlen(err);
+        int i;
+        for(i=0;21*i<len;i++){
+            locate(1,i+2);
+            Print(err+i*21);
+        }
     }
-    locate(1, 2);Print("should be 1784293664");
-    locate(1, 3);Print("which is sum(i,i,1e6)");
-    locate(1, 4);Print("  mod 2^32");
 
     while(1){
         GetKey(&key);
